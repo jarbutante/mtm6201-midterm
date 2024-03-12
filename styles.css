@@ -1,0 +1,29 @@
+/* varialbles */
+
+/* reset */
+body,p,a,ul,li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* base styles */
+body {
+    background: rgb(255, 168, 168);
+    /* overflow-x: hidden; */
+}
+/* fonts */
+body{
+    font-family: 'Poppins';
+}
+
+/* mobiles styles */
+
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+    
+}
