@@ -76,10 +76,15 @@ ul,li {
 
 .burger {
     background: #FFFFFF;
+    align-items: center;
+    text-decoration: none;
     padding: 30px;
     border-radius: 9px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     transition: background-color 0.1s ease-in-out;
+    margin: 0;
+    color: inherit;
+    
 }
 
 .burger:hover{
@@ -93,6 +98,8 @@ ul,li {
     border-radius: 9px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     transition: background-color 0.1s ease-in-out;
+    margin: 0;
+    color: inherit;
 }
 
 .pizza:hover{
@@ -106,6 +113,8 @@ ul,li {
     border-radius: 9px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     transition: background-color 0.1s ease-in-out;
+    margin: 0;
+    color: inherit;
 }
 
 .cake:hover{
