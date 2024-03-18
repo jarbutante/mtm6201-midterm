@@ -39,35 +39,38 @@ ul,li {
     align-items: center;
 }
 
-.nav a {
-    color: black;
-    text-decoration: none;
-}
-.nav i {
-    margin: 0;
-    padding: 0;
+.search-burger {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.nav a:hover {
-    color: red;
+.search {
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    background: #f6f6f6;
 }
 
-.popular-burger {
-    display: grid;
-    margin: 0;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    text-align: center;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
+.search-input{
+    width: 2000px;
+    font-size: 16px;
+    color: #333333;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
 }
 
+.search-input::placeholder{ 
+    color: rgba(0, 0, 0, 0.3);
+}
 
 .food-hover {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    text-align: center;
     gap: 10px;
 }
 
@@ -80,7 +83,8 @@ ul,li {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     transition: background-color 0.1s ease-in-out;
     margin: 0;
-    color: inherit;  
+    color: inherit;
+    
 }
 
 .burger:hover{
@@ -88,10 +92,21 @@ ul,li {
     color: white;
 }
 
-.burger:active {
-    transform: scale(1.2);
+.pizza {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    transition: background-color 0.1s ease-in-out;
+    margin: 0;
+    color: inherit;
 }
-     
+
+.pizza:hover{
+    background-color: #ff002f;
+    color: white;
+}
+
 .cake {
     background: #FFFFFF;
     padding: 30px;
@@ -107,9 +122,53 @@ ul,li {
     color: white;
 }
 
-.cake:active {
-    transform: scale(1.2);
+.popular-burger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.popular-burger a {
+    color: black;
+    text-decoration: none;
+}
+
+.popular-burger a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.burger-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.burger-2 img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.burger-2 img:hover {
+    transform: translateY(-10px);	
+}
+
+.burger-2:hover{
+    background: red;
+    color: white;
+}
+
+.burger-2-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
 
 .app-menu{
      position: fixed;
@@ -132,6 +191,7 @@ ul,li {
     display: flex;
     gap: 90px;
     /* justify-content:space-between; */
+    
 }
   
 .app-menu a{
